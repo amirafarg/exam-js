@@ -1,0 +1,115 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: var(--work-sans);
+    line-height: normal;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+:root {
+    /* fonts */
+
+    font-size: 16px;
+
+    --work-sans: 'Work Sans';
+
+    /* colors */
+    
+    --black: #000;
+    --love: #8C6991;
+}
+
+/* design-desk-top */
+.hero-sec {
+    background-color:  #301534;
+    width: 100vw;
+    height: 40vh;
+    background-image: url(../img/back.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.column-div {
+    background-color: white;
+    border-radius: 0.75rem;
+    margin-top: 20rem;
+    padding: 1.8rem;
+}
+
+.logo {
+    display: flex;
+    gap: 1rem;
+}
+
+h1 {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.column-p {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    border-bottom: 1px solid #F9F0FF;
+    margin-top: 2rem;
+}
+
+.flex-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#p1, #display-none {
+    color: var(--love);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+#p1.show {
+    display: none;
+}
+
+.box {
+    border-bottom: 1px solid #F9F0FF;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.not {
+    border-bottom: 0;
+}
+
+#display-none {
+    display: none;
+}
+
+#display-none.show {
+    display: flex;
+}
+
+
+
+
+
